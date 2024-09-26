@@ -17,6 +17,7 @@ public class CalculatorTest{
     @Test
     void testPerformOperationSubtraction(){
         Calculator calculator = new Calculator("TI84");
+        
         int n1 = 5;
         int n2 = 1;
         double expectedOutput = 4;
