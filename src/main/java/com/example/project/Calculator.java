@@ -1,6 +1,6 @@
 package com.example.project;
 public class Calculator{
-    private String calcModel;
+    public String calcModel;
     
     //constructor that creates an instance of the calculator class
     public Calculator(String model) {
@@ -69,6 +69,6 @@ public class Calculator{
     // (THIS METHOD DOES NOT PRINT)
     public String info(){
         //implement code here\
-     return "This calculator is a mode l" + calcModel + " where "+ calcModel + " should be filled in with the value stored in the calcModel instance variable.";
+     return("This calculator is a model " + calcModel + " where " + calcModel + " should be filled in with the value stored in the calcModel instance variable.");
         }
     }
