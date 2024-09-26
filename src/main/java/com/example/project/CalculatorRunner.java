@@ -11,6 +11,9 @@ public class CalculatorRunner {
         
         int num1 = 4;
         int num2 = 2;
+        
+        System.out.println(calc1.performOperation("/", num1, num2));
+
         if (calc1.divisibleBy(num1, num2)){
             System.out.println(num1 + " is divisible by " + num2);
         }
@@ -18,9 +21,6 @@ public class CalculatorRunner {
             System.out.println(num1 + " is not divisible by " + num2);
         }
 
-        int num3 = 2;
-        int num4 = 3;
-
-        System.out.println("The absolute value of "+ num3 + " and "+ num4 +" is "+calc1.absoluteValue(num3, num4));
+        System.out.println("The distance between "+ num1 + " and "+ num2 +" is "+calc1.absoluteValue(num1, num2));
     }
 }

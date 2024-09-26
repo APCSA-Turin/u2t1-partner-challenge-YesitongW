@@ -24,9 +24,9 @@ public class Calculator{
         } else if (operand.equals("*")) {
             return num1 * num2;
         } else if (operand.equals("/")) {
-           return (double)num1 / num2;
+           return num1 / num2;
         } else {
-        return 0.00;
+        return 0;
         }
     }
 
@@ -37,7 +37,8 @@ public class Calculator{
         
         if (num1 % num2 == 0) {
             return true;
-        } else {
+        } 
+        else {
             return false;
         }
     }
